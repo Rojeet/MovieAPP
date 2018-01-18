@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/t"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/project_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:textSize="50sp"
+        android:textColor="#010101"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        tools:text="Title" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/play"
+        android:text="@string/play"
+        android:background="@drawable/button_background"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/project_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:textSize="20sp"
+        android:textColor="#010101"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        tools:text="Description"
+         />
+
+</LinearLayout>
